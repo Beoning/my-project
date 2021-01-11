@@ -1,9 +1,16 @@
-import "./App.css";
+import React from "react";
+import FullRoadmap from "./components/FullRoadmap/FullRoadmap";
+import Future from "./components/Future/Future";
+import Main from "./components/Main/Main";
+import Past from "./components/Past/Past";
 
 function App() {
   return (
-    <div className="App">
-      <h1>BEONING</h1>
+    <div>
+      <Main />
+      <Past />
+      <Future />
+      <FullRoadmap />
     </div>
   );
 }
