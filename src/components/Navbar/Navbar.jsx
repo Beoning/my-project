@@ -20,6 +20,11 @@ const Navbar = () => {
           Roadmap
         </NavLink>
       </div>
+      <div className={styles.item}>
+        <NavLink to="/main" activeClassName={styles.active}>
+          Main
+        </NavLink>
+      </div>
     </nav>
   );
 };
