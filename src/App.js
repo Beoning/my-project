@@ -1,16 +1,21 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import FullRoadmap from "./components/FullRoadmap/FullRoadmap";
 import Future from "./components/Future/Future";
 import Main from "./components/Main/Main";
 import Past from "./components/Past/Past";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
       <Main />
-      <Past />
-      <Future />
-      <FullRoadmap />
+      <Navbar />
+      <div>
+        <Route path="/past" render={() => <Past />} />
+        <Route path="/future" render={() => <Future />} />
+        <Route path="/roadmap" render={() => <FullRoadmap />} />
+      </div>
     </div>
   );
 }
