@@ -9,9 +9,9 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <Main />
       <Navbar />
       <div>
+        <Route path="/main" render={() => <Main />} />
         <Route path="/past" render={() => <Past />} />
         <Route path="/future" render={() => <Future />} />
         <Route path="/roadmap" render={() => <FullRoadmap />} />
