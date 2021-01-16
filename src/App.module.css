@@ -1,0 +1,13 @@
+.appWrapperContent {
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  width: 100px;
+  margin-left: 40px;
+}
+
+.currentPage {
+  justify-content: flex-end;
+}
