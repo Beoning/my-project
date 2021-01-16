@@ -6,6 +6,11 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.item}>
+        <NavLink to="/main" activeClassName={styles.active}>
+          Main
+        </NavLink>
+      </div>
+      <div className={styles.item}>
         <NavLink to="/past" activeClassName={styles.active}>
           Past
         </NavLink>
@@ -18,11 +23,6 @@ const Navbar = () => {
       <div className={styles.item}>
         <NavLink to="/roadmap" activeClassName={styles.active}>
           Roadmap
-        </NavLink>
-      </div>
-      <div className={styles.item}>
-        <NavLink to="/main" activeClassName={styles.active}>
-          Main
         </NavLink>
       </div>
     </nav>
