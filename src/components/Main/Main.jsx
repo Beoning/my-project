@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./Main.module.css";
 
 const Main = () => {
   return (
-    <div>
+    <div className={style.w}>
       <h1>Beoning</h1>
       <p>
         I`m Beoning.
