@@ -9,9 +9,9 @@ import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className={styles.appWrapperContent}>
-      <Navbar className={styles.navbar} />
-      <div className={styles.currentPage}>
+    <div>
+      <Navbar />
+      <div>
         <Route path="/main" render={() => <Main />} />
         <Route path="/past" render={() => <Past />} />
         <Route path="/future" render={() => <Future />} />

@@ -3,7 +3,7 @@ import style from "./Future.module.css";
 
 const Future = () => {
   return (
-    <div className={style.view}>
+    <div>
       <h1>Что я буду изучать</h1>
     </div>
   );

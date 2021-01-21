@@ -3,7 +3,7 @@ import style from "./Past.module.css";
 
 const Past = () => {
   return (
-    <div className={style.view}>
+    <div>
       <h1>Что я изучил</h1>
     </div>
   );

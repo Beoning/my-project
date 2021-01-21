@@ -3,7 +3,7 @@ import style from "./Main.module.css";
 
 const Main = () => {
   return (
-    <div className={style.view}>
+    <div>
       <h1>Beoning</h1>
       <p>
         I`m Beoning.

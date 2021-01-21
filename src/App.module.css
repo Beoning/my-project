@@ -1,8 +1,0 @@
-.appWrapperContent {
-  display: flex;
-  width: 100%;
-}
-
-.currentPage {
-  justify-content: flex-end;
-}
