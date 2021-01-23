@@ -5,7 +5,6 @@ import Future from "./components/Future/Future";
 import Main from "./components/Main/Main";
 import Past from "./components/Past/Past";
 import Navbar from "./components/Navbar/Navbar";
-import styles from "./App.module.css";
 
 function App() {
   return (

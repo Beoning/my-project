@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./Future.module.css";
 
 const Future = () => {
   return (

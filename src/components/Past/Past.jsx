@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./Past.module.css";
 
 const Past = () => {
   return (
