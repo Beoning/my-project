@@ -1,0 +1,24 @@
+.nav {
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.menuItem {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.menuItem:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.a {
+  text-decoration: none;
+  color: #595856;
+}

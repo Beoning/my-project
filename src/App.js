@@ -9,7 +9,9 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <div>
         <Route path="/main" render={() => <Main />} />
         <Route path="/past" render={() => <Past />} />
