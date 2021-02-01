@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import Cover from "./Cover";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Cover />
   </BrowserRouter>,
   document.getElementById("root")
 );
