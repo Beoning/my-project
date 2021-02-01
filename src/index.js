@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
-import Cover from "./Cover";
+import App from "./App";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Cover />
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );

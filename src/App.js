@@ -1,25 +1,13 @@
-import React from "react";
-import { Route } from "react-router-dom";
-import FullRoadmap from "./components/FullRoadmap/FullRoadmap";
-import Future from "./components/Future/Future";
-import Main from "./components/Main/Main";
-import Past from "./components/Past/Past";
-import Navbar from "./components/Navbar/Navbar";
+import React, { lazy, Suspense } from "react";
+import Preloader from "./components/Preloader/Preloader";
+const Page = lazy(() => import("./Page"));
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <header>
-        <Navbar />
-      </header>
-      <div>
-        <Route path="/main" render={() => <Main />} />
-        <Route path="/past" render={() => <Past />} />
-        <Route path="/future" render={() => <Future />} />
-        <Route path="/roadmap" render={() => <FullRoadmap />} />
-      </div>
-    </div>
+    <Suspense fallback={<Preloader />}>
+      <Page />
+    </Suspense>
   );
-}
+};
 
 export default App;
