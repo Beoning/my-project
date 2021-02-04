@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f0ede8;
   box-sizing: border-box;
+  background: url("background.jpg");
 }
 
 code {
