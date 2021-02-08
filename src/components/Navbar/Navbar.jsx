@@ -1,28 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Navbar.css";
+import style from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="nav">
-      <ul className="menu">
-        <li className="menuItem">
-          <NavLink to="/main" className="a">
-            MAIN
+    <nav className={style.nav}>
+      <ul className={style.menu}>
+        <li className={style.menuItem}>
+          <NavLink to="/about" className={style.a}>
+            ABOUT
           </NavLink>
         </li>
-        <li className="menuItem">
-          <NavLink to="/past" className="a">
+        <li className={style.menuItem}>
+          <NavLink to="/past" className={style.a}>
             PAST
           </NavLink>
         </li>
-        <li className="menuItem">
-          <NavLink to="/future" className="a">
+        <li className={style.menuItem}>
+          <NavLink to="/future" className={style.a}>
             FUTURE
           </NavLink>
         </li>
-        <li className="menuItem">
-          <NavLink to="/roadmap" className="a">
+        <li className={style.menuItem}>
+          <NavLink to="/roadmap" className={style.a}>
             ROADMAP
           </NavLink>
         </li>

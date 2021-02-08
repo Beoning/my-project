@@ -4,21 +4,22 @@
 
 .menu {
   display: flex;
-  margin-left: 0;
-  padding-left: 0;
+  width: 400px;
+  justify-content: space-between;
 }
 
 .menuItem {
   list-style-type: none;
   margin-right: 20px;
+  padding: 10px;
 }
 
 .menuItem:hover {
-  border: 1px solid black;
   border-radius: 20px;
+  background-color: black;
 }
 
 .a {
   text-decoration: none;
-  color: #595856;
+  color: #bbbab8;
 }
