@@ -27,6 +27,11 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
+      <div className={style.contacts}>
+        <button className={style.btn}>
+          <p className={style.text}>@Beoning</p>
+        </button>
+      </div>
     </nav>
   );
 };

@@ -23,3 +23,18 @@
   text-decoration: none;
   color: #bbbab8;
 }
+
+.contacts {
+  position: absolute;
+  top: 15px;
+  left: 90%;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.text {
+  color: white;
+}
