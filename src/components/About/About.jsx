@@ -3,23 +3,23 @@ import style from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={style.content}>
-      <h1 className={style.h1}>
-        <div className={style.h1Container}>
-          Beoning
-          <br />
-          - Junior <br />
-          Front End Developer
-        </div>
-      </h1>
-      <p className={style.p}>
-        I`m Beoning.
-        <br /> My goal is to become a Senior FullStack Developer / Team Leader
-        as quickly as possible <br /> with an understanding of the most
-        important aspects of development for further implementation of my own
-        ideas
-      </p>
-    </div>
+    <>
+      <img
+        src="https://avatars.githubusercontent.com/u/69422191?s=460&u=05954cff7060023b13bee86f7690a44f4ba99d6e&v=4"
+        alt=""
+        className={style.img}
+      />
+      <div className={style.content}>
+        <h1>Beoning - Junior Front End Developer</h1>
+        <p className={style.p}>
+          I`m Beoning.
+          <br /> My goal is to become a Senior FullStack Developer / Team Leader
+          as quickly as possible <br /> with an understanding of the most
+          important aspects of development for further implementation of my own
+          ideas
+        </p>
+      </div>
+    </>
   );
 };
 
