@@ -14,9 +14,29 @@
 }
 
 .line {
-  border-left: 6px solid rgb(0, 0, 0);
-  height: 300px;
+  border-left: 5px solid rgb(255, 255, 255);
+  height: 150px;
   position: absolute;
-  left: 25%;
-  top: 25%;
+  left: 410px;
+  top: 200px;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid white;
+  position: absolute;
+  border-radius: 50%;
+  left: 363px;
+  top: 350px;
+  animation: move 6s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
