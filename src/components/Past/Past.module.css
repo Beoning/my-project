@@ -8,21 +8,15 @@
   padding: 20px;
 }
 
-h1 {
-  color: #e9f3ed;
-  font-size: 60px;
-}
-
 .p {
   color: #cebfb4;
   font-size: 30px;
 }
 
-.img {
-  position: relative;
-  top: 50px;
-  left: 100px;
-  height: 460px;
-  width: 460px;
-  border: 2px solid gray;
+.line {
+  border-left: 6px solid rgb(0, 0, 0);
+  height: 300px;
+  position: absolute;
+  left: 25%;
+  top: 25%;
 }
