@@ -1,7 +1,7 @@
 import React from "react";
-import style from "./Past.module.css";
+import style from "./Stack.module.css";
 
-const Past = () => {
+const Stack = () => {
   return (
     <>
       <div className={style.line}></div>
@@ -11,11 +11,11 @@ const Past = () => {
         className={style.img}
       />
       <div className={style.content}>
-        <h1>What i know for today</h1>
+        <h1>Stack of technologies I know for today</h1>
         <p className={style.p}></p>
       </div>
     </>
   );
 };
 
-export default Past;
+export default Stack;

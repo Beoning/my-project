@@ -12,8 +12,8 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className={style.menuItem}>
-          <NavLink to="/past" className={style.a}>
-            PAST
+          <NavLink to="/stack" className={style.a}>
+            STACK
           </NavLink>
         </li>
         <li className={style.menuItem}>
