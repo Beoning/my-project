@@ -1,10 +1,13 @@
+.container {
+  display: flex;
+}
+
 .content {
-  color: wheat;
   width: 650px;
   height: 470px;
-  position: absolute;
+  /* position: absolute;
   left: 750px;
-  top: 100px;
+  top: 100px; */
   padding: 20px;
 }
 
@@ -13,22 +16,31 @@
   font-size: 30px;
 }
 
+.wrapper {
+  /* width: 300px; */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
 .line {
   border-left: 5px solid rgb(255, 255, 255);
   height: 150px;
-  position: absolute;
-  left: 410px;
-  top: 200px;
+  /* position: relative; */
+  /* left: 410px;
+  top: 200px; */
 }
 
 .img {
   height: 100px;
   width: 100px;
   border: 2px solid white;
-  position: absolute;
+  /* position: relative; */
   border-radius: 50%;
-  left: 363px;
-  top: 350px;
+  /* left: 363px;
+  top: 350px; */
   animation: move 6s infinite;
 }
 
