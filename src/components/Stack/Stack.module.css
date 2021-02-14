@@ -1,14 +1,25 @@
-.container {
-  display: flex;
+.main {
+  animation: appear 2s 1;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .content {
   width: 650px;
-  height: 470px;
-  /* position: absolute;
-  left: 750px;
-  top: 100px; */
   padding: 20px;
+  text-align: center;
+  margin-left: calc(50% - 345px);
 }
 
 .p {

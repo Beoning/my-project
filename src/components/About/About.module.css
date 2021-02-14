@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 50px;
+  margin-left: 6px;
   animation: appear 2s 1;
 }
 
@@ -39,16 +40,4 @@ h1 {
   height: 460px;
   width: 460px;
   border: 2px solid gray;
-}
-
-.backImg {
-  background: url("https://legends.yonex.com/static/images/yonex-legends_pillar_sidebar-lines-3c91abf93d23bd85ff1f7fd7222c50a8-269.png")
-    no-repeat;
-  background-attachment: fixed;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
