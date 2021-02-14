@@ -13,8 +13,8 @@ const Page = () => {
         <Navbar />
       </header>
       <div>
-        <About />
-        <Stack />
+        <Route path="/about" render={() => <About />} />
+        <Route path="/stack" render={() => <Stack />} />
         <Route path="/future" render={() => <Future />} />
         <Route path="/roadmap" render={() => <FullRoadmap />} />
       </div>

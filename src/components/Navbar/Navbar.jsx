@@ -7,14 +7,14 @@ const Navbar = () => {
     <nav className={style.nav}>
       <ul className={style.menu}>
         <li className={style.menuItem}>
-          <a href="#About" className={style.a}>
+          <NavLink to="/about" className={style.a}>
             ABOUT
-          </a>
+          </NavLink>
         </li>
         <li className={style.menuItem}>
-          <a href="#Stack" className={style.a}>
+          <NavLink to="/stack" className={style.a}>
             STACK
-          </a>
+          </NavLink>
         </li>
         <li className={style.menuItem}>
           <NavLink to="/future" className={style.a}>
