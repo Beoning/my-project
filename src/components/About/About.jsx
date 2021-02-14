@@ -4,6 +4,9 @@ import style from "./About.module.css";
 const About = () => {
   return (
     <div className={style.wrapper}>
+      <div className={style.backImg}>
+        <a name="about"></a>
+      </div>
       <img
         src="https://avatars.githubusercontent.com/u/69422191?s=460&u=05954cff7060023b13bee86f7690a44f4ba99d6e&v=4"
         alt=""
