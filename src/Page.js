@@ -17,7 +17,7 @@ const Page = () => {
           className={style.background}
         />
       </div>
-      <header>
+      <header className={style.navigation}>
         <Navbar />
       </header>
       <div>
