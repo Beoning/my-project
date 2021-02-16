@@ -7,7 +7,7 @@
 }
 
 .hLine {
-  border-top: 5px solid rgb(255, 255, 255);
+  border-top: 5px solid #e9f3ed;
   width: 70%;
   margin-left: 15%;
   margin-top: 0;
@@ -44,12 +44,27 @@
   width: 25%;
   height: 127px;
   margin-top: 127px;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
   transition: border-bottom 2s linear, border-left 2s linear;
 }
 
+.span {
+  display: flex;
+  font-size: 20px;
+  padding: 0 0 10px 10px;
+  align-items: center;
+  color: #ee70fa2c;
+  transition: color 2s linear;
+}
+
 .textWrap:hover {
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
+  border-bottom: 1px solid #e9f3ed;
+  border-left: 1px solid #e9f3ed;
+}
+
+.textWrap:hover .span {
+  color: #da70fabd;
 }
 
 .text {
@@ -67,7 +82,7 @@
 }
 
 .line {
-  border-left: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid #e9f3ed;
   height: 150px;
 }
 
