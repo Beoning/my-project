@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import style from "./Navbar.module.css";
+import Overlay from "./../Overlay/Overlay";
 
 const Navbar = () => {
+  const [value, setValue] = useState(false);
   return (
     <nav className={style.nav}>
       <ul className={style.menu}>
@@ -28,9 +30,10 @@ const Navbar = () => {
         </li>
       </ul>
       <div className={style.contacts}>
-        <button className={style.btn}>
+        <button className={style.btn} onClick={() => setValue(true)}>
           <p className={style.text}>@Beoning</p>
         </button>
+        {value ? <Overlay /> : null}
       </div>
     </nav>
   );
