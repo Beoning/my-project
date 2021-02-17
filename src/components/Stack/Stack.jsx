@@ -52,7 +52,7 @@ const Stack = () => {
           />
         </div>
         <div className={style.textWrap}>
-          <p className={style.text}>JavaScript:</p>
+          <p className={style.text}>JS:</p>
           <span className={style.span}>
             Syntax and Basic Constructs | DOM | Fetch API / AJAX | ES6+ |
             Hoisting | Event Bubbling | Scope | Strict | Shadow DOM
