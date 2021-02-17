@@ -49,12 +49,12 @@
   transition: border-bottom 2s linear, border-left 2s linear;
 }
 
-.span {
+.textWrap span {
   display: flex;
   font-size: 20px;
   padding: 0 0 10px 10px;
   align-items: center;
-  color: #ee70fa2c;
+  color: #e9f3ed;
   transition: color 2s linear;
 }
 
@@ -63,11 +63,7 @@
   border-left: 1px solid #e9f3ed;
 }
 
-.textWrap:hover .span {
-  color: #da70fabd;
-}
-
-.text {
+.textWrap p {
   color: #cebfb4;
   font-size: 25px;
   padding: 10px;
@@ -86,7 +82,7 @@
   height: 150px;
 }
 
-.img {
+.wrapper img {
   height: 100px;
   width: 100px;
   border: 2px solid white;
