@@ -42,3 +42,20 @@
 .text {
   color: #8bfc69;
 }
+
+@media (min-width: 375px) {
+  .nav {
+    width: 200px;
+    margin: 0;
+  }
+  .menuItem {
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .contacts {
+    position: absolute;
+    top: 10px;
+    left: 80%;
+  }
+}
