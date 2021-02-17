@@ -98,3 +98,33 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 375px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hLine {
+    display: none;
+  }
+  .content {
+    width: 200px;
+    padding: 0;
+    margin: 0;
+  }
+  .content h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper p {
+    display: inline-block;
+    font-size: 20px;
+    width: 150px;
+  }
+  .wrapper span {
+    display: inline-block;
+    font-size: 15px;
+    width: 150px;
+  }
+}

@@ -43,7 +43,7 @@ h1 {
   border: 2px solid gray;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .wrapper {
     display: flex;
     flex-direction: column;
