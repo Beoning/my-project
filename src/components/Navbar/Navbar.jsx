@@ -29,11 +29,6 @@ const Navbar = () => {
             FUTURE
           </NavLink>
         </li>
-        <li className={style.menuItem}>
-          <NavLink to="/roadmap" className={style.a}>
-            ROADMAP
-          </NavLink>
-        </li>
       </ul>
       <div className={style.contacts}>
         <button className={style.btn} onClick={() => setValue(toggle)}>

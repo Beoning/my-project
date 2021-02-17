@@ -4,7 +4,7 @@
 
 .menu {
   display: flex;
-  width: 400px;
+  width: 200px;
   justify-content: space-between;
 }
 
