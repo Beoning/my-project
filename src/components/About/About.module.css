@@ -32,18 +32,17 @@ h1 {
   -webkit-text-stroke: 1.1px #000000;
 }
 
-.p {
+.content p {
   color: #cebfb4;
   font-size: 30px;
 }
 
-.img {
+.wrapper img {
   height: 460px;
   width: 460px;
-  border: 2px solid gray;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -57,11 +56,11 @@ h1 {
     width: 200px;
     font-size: 35px;
   }
-  .p {
-    font-size: 25px;
+  .content p {
+    font-size: 1.2em;
     padding-bottom: 20px;
   }
-  .img {
+  .wrapper img {
     height: 220px;
     width: 220px;
   }

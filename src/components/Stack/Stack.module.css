@@ -99,23 +99,37 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .main {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .description {
+    margin-bottom: 150px;
+  }
   .hLine {
+    display: none;
+  }
+  .line {
     display: none;
   }
   .content {
     width: 200px;
     padding: 0;
     margin: 0;
+    margin-bottom: 50px;
   }
   .content h1 {
     margin: 0;
     padding: 0;
+  }
+  .textWrap {
+    width: 10em;
+    margin-top: 0;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    transition: border-bottom 2s linear, border-left 2s linear;
   }
   .wrapper p {
     display: inline-block;

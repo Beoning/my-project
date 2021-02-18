@@ -32,7 +32,7 @@ const Navbar = () => {
       </ul>
       <div className={style.contacts}>
         <button className={style.btn} onClick={() => setValue(toggle)}>
-          <p className={style.text}>@Beoning</p>
+          <p>@Beoning</p>
         </button>
         {value ? <Overlay /> : null}
       </div>

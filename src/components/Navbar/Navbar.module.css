@@ -39,23 +39,28 @@
   cursor: pointer;
 }
 
-.text {
+.btn p {
   color: #8bfc69;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 416px) {
   .nav {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
     margin: 0;
   }
+
+  .menu {
+    width: auto;
+  }
+
   .menuItem {
     list-style-type: none;
-    margin-right: 10px;
-    padding: 5px;
+    margin-right: 20px;
+    padding: 0;
   }
   .contacts {
-    position: absolute;
-    top: 10px;
-    left: 80%;
+    position: static;
   }
 }
