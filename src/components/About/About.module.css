@@ -35,6 +35,7 @@ h1 {
 .content p {
   color: #cebfb4;
   font-size: 30px;
+  line-height: 30px;
 }
 
 .wrapper img {
@@ -44,6 +45,7 @@ h1 {
 
 @media (max-width: 415px) {
   .wrapper {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +60,7 @@ h1 {
   }
   .content p {
     font-size: 1.2em;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
   }
   .wrapper img {
     height: 220px;

@@ -127,9 +127,10 @@
   .textWrap {
     width: 10em;
     margin-top: 0;
-    border-bottom: 1px solid transparent;
-    border-left: 1px solid transparent;
-    transition: border-bottom 2s linear, border-left 2s linear;
+    border: none;
+  }
+  .textWrap:hover {
+    border: none;
   }
   .wrapper p {
     display: inline-block;
