@@ -12,9 +12,11 @@ const About = () => {
         <h1>Beoning - Junior Front End Developer</h1>
         <p>
           Hi, I'm Daniil. A 21 y.o. Junior self-taught developer.
+          <br />
           <br /> My goal is to become a Senior Full-Stack Developer, then a Team
           Leader for a complete understanding of all stages of the development
           process to use this knowledge in the future for my own projects.
+          <br />
           <br /> So, as you can see, I'm a very ambitious guy 🏆
         </p>
       </div>
