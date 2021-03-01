@@ -5,12 +5,6 @@ import Overlay from "./../Overlay/Overlay";
 
 const Navbar = () => {
   const [value, setValue] = useState(false);
-  let toggle = (value) => {
-    if (!value) {
-      return true;
-    }
-    return false;
-  };
   return (
     <nav className={style.nav}>
       <ul className={style.menu}>
@@ -31,7 +25,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className={style.contacts}>
-        <button className={style.btn} onClick={() => setValue(toggle)}>
+        <button className={style.btn} onClick={() => setValue(!value)}>
           <p>@Beoning</p>
         </button>
         {value ? <Overlay /> : null}
