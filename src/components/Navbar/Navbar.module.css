@@ -10,18 +10,23 @@
 
 .menuItem {
   list-style-type: none;
+  border-radius: 20px;
   margin-right: 20px;
   padding: 10px;
-}
-
-.menuItem:hover {
-  border-radius: 20px;
-  background-color: black;
+  transition: background-color 1s linear;
 }
 
 .a {
   text-decoration: none;
   color: #bbbab8;
+}
+
+.menuItem:hover {
+  background-color: white;
+}
+
+.menuItem:hover .a {
+  color: black;
 }
 
 .contacts {
@@ -33,10 +38,12 @@
 .btn {
   background-color: transparent;
   border: none;
+  transition: font-size 1s linear;
 }
 
 .btn:hover {
   cursor: pointer;
+  font-size: 15px;
 }
 
 .btn p {
